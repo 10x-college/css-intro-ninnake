@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-image: url(Rectangle\ 7.png);
+  height: 400px;
+  text-align: center;
+  h1 {
+    margin-top: 100px;
+    color: white;
+    font-size: 48px;
+  }
+  p {
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+  }
+}
+.navbar {
+  background-color: #f5f5f7;
+  height: 72px;
+}
+
+.logo {
+  text-align: center;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 24px;
+  color: #5b47d1;
+  height: 49px;
+  width: 148px;
+  padding: 10px, 19px, 10px, 19px;
+  background-color: #f0edff;
+  text-decoration: none;
+  line-height: 49px;
+  margin-top: 12px;
+
+  border: 1px solid black;
+}
+.nav-links {
+  display: inline-block;
+
+  height: 22px;
+}
+.nav-links li {
+  display: inline-block;
+}
+header {
+  ul {
+    margin-left: 50px;
+  }
+  li {
+    a {
+      text-decoration: none;
+      color: #000000;
+      padding: 25px;
+    }
+
+    font-size: 24px;
+  }
+}
+main {
+  background-color: #f5f5f7;
+  h2 {
+    text-align: center;
+    font-size: 36px;
+  }
+  li {
+    display: inline-block;
+  }
+
+  div {
+    background-color: white;
+    width: 360px;
+    height: 472px;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    img {
+      width: 360px;
+      height: 240px;
+    }
+    span {
+      opacity: 0.6;
+      padding: 20px;
+    }
+    h3 {
+      height: 81px;
+      margin: 10px 20px 0px 20px;
+      font-size: 22px;
+    }
+    p {
+      font-size: 15px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  }
+}
+footer {
+  background-image: url(Rectangle\ 13.png);
+  height: 403px;
+  padding-left: 300px;
+}
+.footerbox {
+  display: inline-block;
+  vertical-align: top;
+  color: #a1a1a6;
+
+  p {
+    width: 296px;
+  }
+  h2 {
+    padding-top: 50px;
+    color: white;
+
+    margin-bottom: 20px;
+  }
+  a {
+    text-decoration: none;
+    color: #a1a1a6;
+    line-height: 30px;
+    font-weight: 900;
+  }
+}
+.contact {
+  line-height: 30px;
+  font-weight: 900;
+}
+.secondbox {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 200px;
+  h2 {
+    padding-top: 50px;
+    color: white;
+    padding-bottom: 10px;
+  }
+  a {
+    color: #a1a1a6;
+    text-decoration: none;
+    line-height: 30px;
+    font-weight: 900;
+  }
+}
+#line {
+  margin-left: -300px;
+  text-align: center;
+  color: #86868b;
+  background-color: #020202;
+  height: 55px;
+}
